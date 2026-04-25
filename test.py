@@ -17,4 +17,4 @@ time.sleep(2)
 assert "Hello CI/CD World" in driver.page_source
 print("TEST PASSED")
  
-driver.quit(
+driver.quit()
